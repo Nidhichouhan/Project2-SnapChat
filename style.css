@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:200;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 10px;
+}
+
+nav {
+    background: #edeef0;
+}
+
+.logo img {
+    height: 25px;
+    width: 25px;
+}
+
+.nav-link {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    text-decoration: underline darkslategray;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0px 10px;
+}
+
+#home {
+    background: yellow;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+#home div article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#home div article * {
+    padding: 0 5px;
+}
+
+h3 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.friends {
+    height: 250px;
+}
+
+.right1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2.5em;
+    font-weight: 900;
+    -webkit-text-fill-color: rgb(7, 138, 245);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    text-shadow: -1px -1px 0 black;
+}
+
+.right2 {
+    color: gainsboro;
+    background: black;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.4em;
+    letter-spacing: 1.5px;
+    font-weight: 100px;
+    border-spacing: 50px;
+    width: 40px;
+}
+
+.middle1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    -webkit-text-fill-color: rgb(7, 237, 245);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.2px;
+    text-shadow: black;
+    ;
+
+}
+
+.middle2 {
+    font-family: 'Rouge Script', cursive;
+    font-size: 2.5em;
+    font-weight: 900;
+    -webkit-text-fill-color: orange;
+    -webkit-text-stroke-color: black;
+    text-shadow: -1px -1px 0 black;
+}
+
+.left1 {
+    font-family: 'Fredoka One', cursive;
+    font-weight: 900;
+    font-size: 3em;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, violet, purple 100%);
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;
+
+
+}
+
+
+
+.left2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    -webkit-text-fill-color: orange;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -1px -1px 0 black;
+
+
+}
+
+#real-friends {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 100%;
+
+}
+
+.myButton {
+    background-color: #ffffff;
+    border-radius: 28px;
+    border: 1px solid #fcfffe;
+    display: inline-block;
+    cursor: pointer;
+    color: darkslategrey;
+    font-family: Verdana;
+    font-size: 10px;
+    padding: 12px 35px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2b665e;
+}
+
+.myButton:hover {
+    background-color: white;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+#home input {
+    margin-top: 70px;
+}
+
+h4 span {
+    font-family: fantasy;
+    font-size: large;
+    font-weight: 700;
+    text-decoration-color: rgb(8, 195, 252);
+}
+
+#others {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.list ul {
+    list-style: none;
+}
+
+#languages {
+    padding: 0 120px;
+    width: 100%;
+}
+
+h4 {
+    font-weight: 700;
+}
+
+.sublist {
+    color: lightgrey;
+    background: white;
+}
+
+#additionals {
+    margin: 50px 0;
+}
+
+#footer {
+    background: black;
+    color: lightgrey;
+}
+
+.langlist {
+    margin-top: 10px;
+    border-radius: 8%;
+    border-color: lightgrey;
+    font-size: 1em;
+    padding: 5px;
+    color: lightgray;
+    background: white;
+}
+
+.sublist {
+    margin: 5px 0;
+}
+
+.policies {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    list-style: none;
+    padding: 20px;
+    margin-left: 90px;
+}
+
+.policies li {
+    margin: 0 10px;
+}
